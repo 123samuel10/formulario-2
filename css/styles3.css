@@ -1,0 +1,22 @@
+.reloj{
+    margin-top: 50px;
+    font-size: 3em;
+    font-family: cursive;
+    color: red;
+    animation: 2s siu infinite;
+
+}
+@keyframes siu{
+    0%{
+        color: blueviolet;
+    }
+    20%{
+        color: aqua;
+    }
+    30%{
+        color: blue;
+    }
+    50%{
+        color: cadetblue;
+    }
+}

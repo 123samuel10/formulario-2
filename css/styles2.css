@@ -1,0 +1,16 @@
+.text{
+    background-color: blue;
+    width: 100%;
+}
+#caja{
+background-color: aqua;
+height: 100px;
+}
+#input{
+    text-align: center;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    width: 80%;
+    padding: 10px;
+}

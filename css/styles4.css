@@ -1,0 +1,81 @@
+*{
+    background-color: black;
+}
+.reloj{
+    position: relative;
+    left: 45%;
+    color: white;
+    font-size: 30px;
+    animation: 2s siuw infinite;
+}
+@keyframes siuw{
+    0%{
+        color: darkblue;
+    }
+    20%{
+        color: brown;
+    }
+    40%{
+        color: darkkhaki;
+    }
+    60%{
+        color: crimson;
+    }
+    100%{
+        color: blue;
+    }
+}
+.title{
+    
+    border: 6px solid rgb(231, 111, 131);
+    border-radius: 10px;
+    cursor: pointer;
+    color: blueviolet;
+    font-size: 7vh;
+    animation: siu 2s infinite;
+    
+    
+}
+@keyframes siu{
+    0%{
+        border-color: crimson;
+    }
+    20%{
+        border-color: rgb(172, 156, 172);
+    }
+    40%{
+        border-color: rgb(71, 71, 112);
+    }
+}
+
+.formulario{
+    background-color: rgb(87, 110, 110);
+    height: 400px;
+    width: 400px;
+    padding: 35px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 7px 14px 24px white;
+    position: relative;
+    left: 30%;
+}
+.cuadro{
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    color: white;
+
+    
+}
+.boton{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+}
+.terminos{
+    font-size: 16px;
+}
+
+

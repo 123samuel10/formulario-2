@@ -1,0 +1,39 @@
+.formulario{
+    background-color: dodgerblue;
+    height: 400px;
+    width: 400px;
+    padding: 35px;
+    position: relative;
+    left: 30%;
+    top: 100px;
+}
+.cuadro{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.boton{
+    width: 100%;
+    padding: 5px;
+    margin-top: 40px;
+}
+.paginas{
+    position: relative;
+    top: 200px;
+    background-color: gray;
+    display: flex;
+
+}
+.paginas a{
+    line-height: 100px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 30%;
+    color: white;
+}
+.paginas a:hover{
+    color: black;
+    background-color: coral;
+}
